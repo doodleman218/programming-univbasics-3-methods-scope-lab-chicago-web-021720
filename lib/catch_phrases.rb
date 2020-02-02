@@ -12,3 +12,7 @@ def link
   link_phrase = "It's Dangerous To Go Alone! Take This."
   puts link_phrase
 end
+
+def any_phrase (phrase)
+  puts ${phrase}
+end
